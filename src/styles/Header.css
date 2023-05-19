@@ -27,7 +27,8 @@ header nav ul li {
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     color: #ff6060;
-    margin-left: 60px;
+    margin-right: 7px;
+    margin-left: 50px;
 }
 
 header nav ul a.nav-active {
