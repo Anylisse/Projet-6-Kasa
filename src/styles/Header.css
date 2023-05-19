@@ -1,0 +1,36 @@
+header {
+    margin: 30px 40px 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo-kasa img {
+    width: 100%;
+    height: 70px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul a {
+    text-decoration: none;
+}
+
+header nav ul li {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff6060;
+    margin-left: 60px;
+}
+
+header nav ul a.nav-active {
+  text-decoration-line: underline;
+  color: #ff6060;
+}
