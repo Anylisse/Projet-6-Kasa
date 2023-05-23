@@ -5,11 +5,11 @@ import Footer from "../components/Footer";
 
 function About() {
     return (
-        <div>
+        <>
             <Header />
             <Banner />
             <Footer />
-        </div>
+        </>
     );
 }
 

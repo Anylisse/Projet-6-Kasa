@@ -6,11 +6,11 @@ import Footer from "../components/Footer";
 
 function Home() {
     return (
-        <div>
+        <>
             <Header />
             <Banner title="Chez vous, partout et ailleurs" src={banner} alt="Bannière accueil"/>
             <Footer />
-        </div>
+        </>
     );
 }
 
