@@ -31,6 +31,6 @@ header nav ul li {
 }
 
 header nav ul a.nav-active {
-  text-decoration-line: underline;
-  color: #ff6060;
+    text-decoration-line: underline;
+    color: #ff6060;
 }

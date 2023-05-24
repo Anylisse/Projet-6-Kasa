@@ -5,11 +5,10 @@ import "../styles/Card.css";
 function Card(props) {
     return (
         <div className="card">
-            <Link to={`/logements/${props.id}`} className="link">
-                <div className="div-card">
-                    <img src={props.cover} alt="Logements" className="card-img" />
+            <Link to={`/logements/${props.id}`}>
+                <div className="div-card"></div>
+                    <img src={props.cover} alt="Logements" />
                     <h2>{props.title}</h2>
-                </div>
             </Link>
         </div>
     )
