@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import banner from "../assets/homeImg.webp";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
+import "../styles/Error404.css";
 
 function Home() {
     return (
