@@ -5,10 +5,10 @@ import "../styles/Card.css";
 function Card(props) {
     return (
         <div className="card">
-            <Link to={`/logements/${props.id}`}>
+            <Link to={`/housing/${props.id}`}>
                 <div className="div-card"></div>
                     <img src={props.cover} alt="Logements" />
-                    <h2>{props.title}</h2>
+                    <h3>{props.title}</h3>
             </Link>
         </div>
     )

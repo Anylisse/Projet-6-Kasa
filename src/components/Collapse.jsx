@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import arrowUp from "../assets/upArrow.png";
 import arrowDown from "../assets/downArrow.png";
 import "../styles/Collapse.css";

@@ -8,7 +8,7 @@ import "../styles/About.css";
 
 function About() {
     return (
-        <div>
+        <>
             <Header />
 
             <Banner src={banner} alt="Bannière à propos"/>
@@ -39,7 +39,7 @@ function About() {
             classText="text-collapse"/>
 
             <Footer />
-        </div>
+        </>
     );
 }
 
