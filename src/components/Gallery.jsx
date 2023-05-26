@@ -3,7 +3,7 @@ import Card from "./Card";
 import data from "../data/logements.json";
 import "../styles/Gallery.css";
 
-function Gallery(){
+function Gallery() {
     return (
         <div className="gallery">
             {data.map((e) => (

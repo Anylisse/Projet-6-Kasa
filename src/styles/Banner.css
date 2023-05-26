@@ -9,9 +9,11 @@
     object-fit: cover;
     border-radius: 25px;
     filter: brightness(0.7);
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.banner h1{
+.banner h1 {
     font-weight: 500;
     font-size: 48px;
     color: white;

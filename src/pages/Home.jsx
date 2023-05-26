@@ -14,7 +14,7 @@ function Home() {
             <Gallery />
             <Footer />
         </>
-    );
+    )
 }
 
 export default Home;

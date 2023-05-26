@@ -20,11 +20,11 @@ function Collapse(props) {
                     <img src={arrowDown} alt="Flèche vers le bas"/>
                 )}
             </div>
-            {open && (
+                {open && (
                     <p className={props.classText}>{props.text}</p>
-            )}
+                )}
         </div>
-    );
+    )
 }
 
 export default Collapse;
