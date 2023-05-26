@@ -13,7 +13,7 @@ function Collapse(props) {
     return (
         <div className="collapse">
             <div className={props.classTitle} onClick={toggleCollapse}>
-                <h3 className="collapse-title">{props.title}</h3>
+                <h4 className="collapse-title">{props.title}</h4>
                 {open ? (
                     <img src={arrowUp} alt="Flèche vers le haut"/>
                 ) : (
