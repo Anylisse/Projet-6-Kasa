@@ -1,0 +1,16 @@
+.housing-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.housing-description .housing-title-location {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 0;
+}
+
+.housing-description .housing-tag {
+    display: flex;
+    margin: 20px 0 5px;
+}

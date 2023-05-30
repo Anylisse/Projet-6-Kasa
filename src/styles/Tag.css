@@ -1,0 +1,19 @@
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FF6060;
+    color: white;
+    border-radius: 10px;
+    width: 115px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.tag h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}

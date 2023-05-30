@@ -1,3 +1,7 @@
+.collapse-about {
+    margin-inline: 25px;
+}
+
 .title-collapse {
     display: flex;
     justify-content: space-between;

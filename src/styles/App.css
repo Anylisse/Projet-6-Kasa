@@ -8,3 +8,8 @@ body {
     margin: auto;
     padding: 0;
 }
+
+main {
+    padding-left: 40px;
+    padding-right: 40px;
+}

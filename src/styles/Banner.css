@@ -1,6 +1,8 @@
 .banner {
     display: flex;
     justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .banner-home {
@@ -9,8 +11,6 @@
     object-fit: cover;
     border-radius: 25px;
     filter: brightness(0.7);
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .banner h1 {

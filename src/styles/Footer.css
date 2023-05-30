@@ -1,4 +1,5 @@
 footer {
+    width: 100%;
     background: black;
     color: white;
     font-size: 18px;
@@ -8,7 +9,6 @@ footer {
 }
 
 footer img {
-    width: 12%;
     height: 50px;
 }
 
