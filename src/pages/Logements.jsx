@@ -6,6 +6,7 @@ import Carousel from "../components/Carousel";
 import HousingTitle from "../components/HousingTitle";
 import HousingHost from "../components/HousingHost";
 import Tag from "../components/Tag";
+import Rating from "../components/Rating";
 import "../styles/Logements.css";
 import Footer from "../components/Footer";
 import Error404 from "../pages/Error404";
@@ -32,7 +33,14 @@ function Logements() {
                 ))}
                 </div>
             </div>
+            <div className="housing-host-rate">
+                <div className="host-housing">
             <HousingHost hostPicture={housing.host.picture} hostName={housing.host.name} />
+                </div>
+                <div className="housing-rate">
+            <Rating rate={housing.rating} />
+                </div>
+            </div>
         </div>
         </main>
             <Footer />

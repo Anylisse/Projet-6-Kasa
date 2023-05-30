@@ -14,3 +14,17 @@
     display: flex;
     margin: 20px 0 5px;
 }
+
+.housing-description .housing-host-rate {
+    display: flex;
+    flex-direction: column;
+}
+
+.housing-description .housing-host-rate .host-housing {
+    margin: 0 0 15px;
+}
+
+.housing-description .housing-host-rate .housing-rate {
+    display: flex;
+    justify-content: flex-end;
+}
