@@ -4,6 +4,7 @@ import data from "../data/logements.json";
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import HousingTitle from "../components/HousingTitle";
+import HousingHost from "../components/HousingHost";
 import Footer from "../components/Footer";
 import Error404 from "../pages/Error404";
 
@@ -18,8 +19,9 @@ function Logements() {
     return (
         <>
             <Header />
-            <Carousel pictures={housing.pictures}/>
+            <Carousel pictures={housing.pictures} />
             <HousingTitle title={housing.title} location={housing.location} />
+            <HousingHost hostPicture={housing.host.picture} hostName={housing.host.name} />
             <Footer />
         </>
     )
