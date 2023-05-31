@@ -1,9 +1,8 @@
-.stars img {
-    width: 24px;
-    height: 24px;
-    margin-left: 12px;
+.rating {
+    color: #e3e3e3;
+    margin: 3px;
 }
 
-.stars {
-    margin-top: 12px;
+.colored {
+    color: #ff6060;
 }

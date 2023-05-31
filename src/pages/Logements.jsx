@@ -14,6 +14,7 @@ import Error404 from "../pages/Error404";
 function Logements() {
     const {id} = useParams();
     const housing = data.find((housing) => housing.id === id)
+    const rates = [1, 2, 3, 4, 5];
 
     if (!housing) {
         return <Error404/>
@@ -38,7 +39,9 @@ function Logements() {
             <HousingHost hostPicture={housing.host.picture} hostName={housing.host.name} />
                 </div>
                 <div className="housing-rate">
-            <Rating rate={housing.rating} />
+                    {rates.map((e, index) => (
+            <Rating key={index} color={parseInt(housing.rating) >= e ? "colored" : ""} />
+            ))}
                 </div>
             </div>
         </div>
