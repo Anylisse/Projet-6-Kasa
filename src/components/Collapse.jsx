@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Collapse.css";
 
-function Collapse(props) {
+function Collapse({title, text}) {
     const [open, setOpen] = useState(false);
 
     const toggleCollapse = () => {
@@ -10,8 +10,8 @@ function Collapse(props) {
 
     return (
         <div className="collapse">
-            <div className={`${props.classTitle} classTitleCollapse`} onClick={toggleCollapse}>
-                <h4 className="collapse-title">{props.title}</h4>
+            <div className="collapse-content" onClick={toggleCollapse}>
+                <h4 className="collapse-title">{title}</h4>
                 {open ? (
                     <i className="fa-solid fa-chevron-up chevron"></i>
                 ) : (
@@ -19,7 +19,7 @@ function Collapse(props) {
                 )}
             </div>
                 {open && (
-                    <p className={`${props.classText} classTextCollapse`}>{props.text}</p>
+                    <p className="collapse-text">{text}</p>
                 )}
         </div>
     )

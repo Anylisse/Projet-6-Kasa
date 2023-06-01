@@ -28,3 +28,23 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.housing-collapse {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.collapse-description {
+    width: 48%;
+}
+
+.collapse-equipments {
+    width: 48%;
+    margin: 0;
+    padding: 0;
+}
+
+.list-equipments {
+    list-style: none;
+}

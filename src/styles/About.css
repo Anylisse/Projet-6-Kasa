@@ -1,7 +1,5 @@
-.about-title-collapse {
-    width: 80%;
-}
-
-.about-text-collapse {
-    width: 80%;
+.about-collapse {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 100px;
 }

@@ -7,6 +7,7 @@ import HousingTitle from "../components/HousingTitle";
 import HousingHost from "../components/HousingHost";
 import Tag from "../components/Tag";
 import Rating from "../components/Rating";
+import Collapse from "../components/Collapse";
 import "../styles/Logements.css";
 import Footer from "../components/Footer";
 import Error404 from "../pages/Error404";
@@ -44,6 +45,16 @@ function Logements() {
             ))}
                 </div>
             </div>
+        </div>
+        <div className="housing-collapse">
+            <div className="collapse-description">
+                <Collapse title="Description" text={housing.description}/>
+            </div>
+            <ul className="collapse-equipments">
+                <Collapse title="Équipements" text={housing.equipments.map((equipment, i) => (
+                    <li key={i} className="list-equipments">{equipment}</li>
+                ))}/>
+            </ul>
         </div>
         </main>
             <Footer />

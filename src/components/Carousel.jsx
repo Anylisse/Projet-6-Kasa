@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import arrowLeft from "../assets/leftArrow.png";
-import arrowRight from "../assets/rightArrow.png";
 import "../styles/Carousel.css";
 
 function Carousel({ pictures }) {
@@ -27,10 +25,10 @@ function Carousel({ pictures }) {
             </div>
             <div className="carousel-arrows">
                 {length > 1 && ( // Si il y a plus d'une image, on affiche les flèches
-                    <img src={arrowLeft} onClick={prevImg} className="carousel-prev" alt="Flèche de gauche"/>
+                    <i className="fa-solid fa-chevron-left left-chevron" onClick={prevImg}></i>
                 )}
                 {length > 1 && (
-                    <img src={arrowRight} onClick={nextImg} className="carousel-next" alt="Flèche de droite"/>
+                    <i className="fa-solid fa-chevron-right right-chevron" onClick={nextImg}></i>
                 )}  
             </div>
             {length > 1 ? ( // Si il n'y a qu'une image, les flèches et le compteur ne s'affichent pas
