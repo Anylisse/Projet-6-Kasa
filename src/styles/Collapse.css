@@ -36,3 +36,27 @@
     margin: 0;
     padding: 25px 20px 15px 20px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .collapse {
+        margin-top: 20px;
+    }
+
+    .collapse-content {
+        height: 30px;
+        padding: 0 10px 0 10px;
+    }
+
+    .collapse-title {
+        font-size: 13px;
+    }
+
+    .chevron {
+        font-size: 15px;
+    }
+
+    .collapse-text {
+        font-size: 12px;
+        padding: 15px 0 40px 10px;
+    }
+}

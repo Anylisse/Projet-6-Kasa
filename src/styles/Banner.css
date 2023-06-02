@@ -1,7 +1,7 @@
 .banner {
-   position: relative;
-   height: 223px;
-   margin: 0 40px;
+    position: relative;
+    height: 223px;
+    margin: 0 40px;
 }
 
 .banner .banner-home {
@@ -28,4 +28,27 @@
     font-size: 48px;
     color: white;
     top: 35%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner {
+        height: 190px;
+    }
+
+    .banner h1 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .banner {
+        height: 111px;
+        margin: 0 20px;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 50px;
+    }
 }

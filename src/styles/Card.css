@@ -27,5 +27,12 @@
     font-size: 18px;
     bottom: 5%;
     left: 5%;
+    right: 5%;
     line-height: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        max-height: 255px;
+    }
 }
