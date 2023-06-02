@@ -4,7 +4,8 @@ import "../styles/Banner.css";
 function Banner(props) {
     return (
         <div className="banner">
-            <img src={props.src} alt={props.alt} className="banner-home" />
+            <div className="banner-home"></div>
+            <img src={props.src} alt="Bannière accueil" />
             {props.title ? <h1>{props.title}</h1> : ""}
         </div>
     )

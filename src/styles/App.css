@@ -1,11 +1,8 @@
 * {
     box-sizing: border-box;
-}
-
-body {
     max-width: 1440px;
     font-family: 'Montserrat', sans-serif;
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 

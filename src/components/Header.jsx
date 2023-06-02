@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logoKasa.png";
+import logo from "../assets/logoKasa.svg";
 import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
 
@@ -13,12 +13,16 @@ function Header() {
                     </NavLink>
                 </div>
                     <ul>
+                        <li>
                     <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>Accueil</li>
+                        Accueil
                     </NavLink>
+                        </li>
+                        <li>
                     <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>À Propos</li>
+                        À Propos
                     </NavLink>
+                        </li>
                     </ul>
             </nav>
         </header>
