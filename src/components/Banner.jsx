@@ -1,12 +1,12 @@
 import React from "react";
+import BannerPicture from "../assets/homeImg.webp";
 import "../styles/Banner.css";
 
-function Banner(props) {
+function Banner() {
     return (
         <div className="banner">
-            <div className="banner-home"></div>
-            <img src={props.src} alt="Bannière accueil" />
-            {props.title ? <h1>{props.title}</h1> : ""}
+            <img src={BannerPicture} className="img-home" alt="Bannière accueil" />
+            <h1>Chez vous, partout et ailleurs</h1>
         </div>
     )
   }

@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import Banner from "../components/Banner";
-import banner from "../assets/aboutImg.webp";
+import AboutImg from "../assets/aboutImg.webp";
 import Collapse from "../components/Collapse";
 import Footer from "../components/Footer";
 import "../styles/About.css";
@@ -10,7 +9,9 @@ function About() {
     return (
         <>
             <Header />
-            <Banner src={banner} alt="Bannière à propos"/>
+            <div className="container-about">
+            <img src={AboutImg} className="img-about" alt="Bannière à propos"/>
+            </div>
         <main>
             <div className="about-collapse">
             <Collapse title="Fiabilité"

@@ -20,9 +20,7 @@ function Carousel({ pictures }) {
 
     return (
         <div className="carousel">
-            <div className="carousel-pictures">
             <img src={pictures[current]} className="carousel-img" alt="Photos logements"/>
-            </div>
             <div className="carousel-arrows">
                 {length > 1 && ( // Si il y a plus d'une image, on affiche les flèches
                     <i className="fa-solid fa-chevron-left left-chevron" onClick={prevImg}></i>

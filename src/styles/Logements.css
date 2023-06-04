@@ -1,13 +1,12 @@
 .housing-description {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    margin: 15px 0 0;
 }
 
 .housing-description .housing-title-location {
     display: flex;
     flex-direction: column;
-    margin: 15px 0 0;
 }
 
 .housing-description .housing-tag {
@@ -18,6 +17,7 @@
 .housing-description .housing-host-rate {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
 .housing-description .housing-host-rate .host-housing {
@@ -27,6 +27,7 @@
 .housing-description .housing-host-rate .housing-rate {
     display: flex;
     justify-content: flex-end;
+    font-size: 18px;
 }
 
 .housing-collapse {
@@ -47,4 +48,63 @@
 
 .list-equipments {
     list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    .housing-description {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .housing-description .housing-host-rate .housing-rate {
+        font-size: 14px;
+    }
+
+    .housing-description .housing-host-rate {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .housing-collapse {
+        margin-top: -15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 555px) {
+    .housing-description {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .housing-description .housing-tag {
+        margin: 10px 0 5px;
+    }
+
+    .housing-description .housing-host-rate {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .housing-description .housing-host-rate .housing-rate {
+        font-size: 12px;
+    }
+
+    .housing-collapse {
+        flex-direction: column;
+        margin-top: -15px;
+    }
+
+    .collapse-description {
+        width: 100%;
+    }
+
+    .collapse-equipments {
+        width: 100%;
+    }
 }

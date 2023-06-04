@@ -36,9 +36,23 @@ header nav ul li a.nav-active {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     header {
-        margin: 20px;
+        margin: 20px 20px 15px 20px;
+    }
+
+    header nav .logo-kasa img {
+        width: 85%;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 555px) {
+    header {
+        margin: 10px 20px 0 20px;
     }
 
     header nav {

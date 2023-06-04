@@ -13,9 +13,9 @@ function Collapse({title, text}) {
             <div className="collapse-content" onClick={toggleCollapse}>
                 <h4 className="collapse-title">{title}</h4>
                 {open ? (
-                    <i className="fa-solid fa-chevron-up chevron"></i>
-                ) : (
                     <i className="fa-solid fa-chevron-down chevron"></i>
+                ) : (
+                    <i className="fa-solid fa-chevron-up chevron"></i>
                 )}
             </div>
                 {open && (

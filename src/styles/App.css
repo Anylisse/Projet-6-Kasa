@@ -15,9 +15,16 @@ main {
     padding-right: 40px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     main {
         padding-left: 20px;
         padding-right: 20px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }

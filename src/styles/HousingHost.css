@@ -1,12 +1,10 @@
 .housing-host {
     display: flex;
     align-items: center;
-    margin-top: 15px;
 }
 
 .housing-host h3 {
     width: 93px;
-    height: 52px;
     font-weight: 500;
     font-size: 18px;
     text-align: right;
@@ -16,7 +14,17 @@
 
 .housing-host img {
     width: 64px;
-    height: 64px;
     background: #C4C4C4;
     border-radius: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 554px) {
+    .housing-host h3 {
+        width: 15vw;
+        font-size: 12px;
+    }
+
+    .housing-host img {
+        width: 32px;
+    }
 }

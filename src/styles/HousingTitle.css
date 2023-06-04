@@ -11,3 +11,21 @@
     font-size: 18px;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .housing-title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 555px) {
+    .housing-title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .housing-location {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
