@@ -71,6 +71,7 @@
     .collapse-text {
         font-size: 16px;
         min-height: 200px;
+        line-height: 21px;
     }
 }
 
@@ -97,5 +98,6 @@
         font-size: 12px;
         padding: 15px 10px 10px 10px;
         min-height: 150px;
+        line-height: 17px;
     }
 }
