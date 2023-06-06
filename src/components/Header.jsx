@@ -9,21 +9,21 @@ function Header() {
             <nav>
                 <div className="logo-kasa">
                     <NavLink to="/">
-                     <img src={logo} alt="Logo de Kasa" />  
+                        <img src={logo} alt="Logo de Kasa" />
                     </NavLink>
                 </div>
-                    <ul>
-                        <li>
-                    <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        Accueil
-                    </NavLink>
-                        </li>
-                        <li>
-                    <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        À Propos
-                    </NavLink>
-                        </li>
-                    </ul>
+                <ul>
+                    <li>
+                        <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                            Accueil
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                            À Propos
+                        </NavLink>
+                    </li>
+                </ul>
             </nav>
         </header>
     )

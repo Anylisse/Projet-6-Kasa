@@ -74,7 +74,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 555px) {
+@media screen and (max-width: 555px) {
     .housing-description {
         flex-direction: column;
         margin-top: 5px;

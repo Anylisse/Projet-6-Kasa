@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 426px) {
+@media screen and (max-width: 426px) {
     .carousel {
         height: 255px;
     }

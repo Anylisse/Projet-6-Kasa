@@ -7,8 +7,8 @@ function Card(props) {
         <div className="card">
             <Link to={`/housing/${props.id}`}>
                 <div className="div-card"></div>
-                    <img src={props.cover} alt="Logements" />
-                    <h3>{props.title}</h3>
+                <img src={props.cover} alt="Logements" />
+                <h3>{props.title}</h3>
             </Link>
         </div>
     )

@@ -8,15 +8,15 @@
     padding: 40px 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .gallery {
         grid-template-columns: 1fr 1fr;
         grid-gap: 35px;
-        margin: 40px 20px;
+        margin: 40px 40px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 740px) {
     .gallery {
         grid-template-columns: 1fr;
         grid-gap: 20px;

@@ -31,7 +31,7 @@
     line-height: 26px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .card {
         max-height: 255px;
     }

@@ -20,22 +20,22 @@ function Carousel({ pictures }) {
 
     return (
         <div className="carousel">
-            <img src={pictures[current]} className="carousel-img" alt="Photos logements"/>
+            <img src={pictures[current]} className="carousel-img" alt="Photos logements" />
             <div className="carousel-arrows">
                 {length > 1 && ( // Si il y a plus d'une image, on affiche les flèches
                     <i className="fa-solid fa-chevron-left left-chevron" onClick={prevImg}></i>
                 )}
                 {length > 1 && (
                     <i className="fa-solid fa-chevron-right right-chevron" onClick={nextImg}></i>
-                )}  
+                )}
             </div>
             {length > 1 ? ( // Si il n'y a qu'une image, les flèches et le compteur ne s'affichent pas
-            <div className="carousel-counter">
-            {current + 1}/{length} {/* Affichage du compteur */}
-            </div>
+                <div className="carousel-counter">
+                    {current + 1}/{length} {/* Affichage du compteur */}
+                </div>
             ) : ("")
             }
-        </div>            
+        </div>
     )
 }
 
