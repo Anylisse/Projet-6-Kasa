@@ -1,22 +1,3 @@
-.container-about {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #c4c4c4;
-    border-radius: 25px;
-    height: 223px;
-    margin: 0 40px;
-}
-
-.img-about {
-    width: 100%;
-    height: 100%;
-    border-radius: 25px;
-    object-fit: cover;
-    filter: brightness(0.7);
-}
-
 .about-collapse {
     display: flex;
     flex-direction: column;
@@ -27,28 +8,10 @@
     .about-collapse {
         margin-inline: 50px;
     }
-
-    .container-about {
-        height: 190px;
-        margin: 0 20px;
-    }
-
-    .img-about {
-        border-radius: 15px;
-    }
 }
 
 @media screen and (max-width: 767px) {
     .about-collapse {
         margin-inline: 0;
-    }
-
-    .container-about {
-        height: 223px;
-        margin: 0 15px;
-    }
-
-    .img-about {
-        border-radius: 10px;
     }
 }

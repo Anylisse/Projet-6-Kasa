@@ -7,10 +7,9 @@
     background-color: #c4c4c4;
     border-radius: 25px;
     height: 223px;
-    margin: 0 40px;
 }
 
-.img-home {
+.img-banner {
     width: 100%;
     height: 100%;
     border-radius: 25px;
@@ -29,41 +28,37 @@
     top: 35%;
 }
 
-@media screen and (min-width: 740px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .banner {
         height: 190px;
-        margin: 0 40px;
     }
 
     .banner h1 {
-        font-size: 44px;
+        font-size: 40px;
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 740px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
 
     .banner {
-        height: 111px;
-        margin: 0 15px;
+        height: 140px;
     }
 
-    .img-home {
+    .img-banner {
         border-radius: 10px;
     }
 
     .banner h1 {
-        font-size: 34px;
+        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 555px) {
     .banner {
         height: 111px;
-        margin-left: 15px;
-        margin-right: 15px;
     }
 
-    .img-home {
+    .img-banner {
         border-radius: 10px;
     }
 

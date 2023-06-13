@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
-import AboutImg from "../assets/aboutImg.webp";
+import Banner from "../components/Banner";
+import bannerAbout from "../assets/aboutImg.webp";
 import Collapse from "../components/Collapse";
 import Footer from "../components/Footer";
 import "../styles/About.css";
@@ -9,10 +10,8 @@ function About() {
     return (
         <>
             <Header />
-            <div className="container-about">
-                <img src={AboutImg} className="img-about" alt="Bannière à propos" />
-            </div>
             <main>
+                <Banner src={bannerAbout} alt="Bannière à propos" />
                 <div className="about-collapse">
                     <Collapse title="Fiabilité"
                         text="Les annonces postées sur Kasa garantissent une fiabilité totale. 
