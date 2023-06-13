@@ -42,6 +42,11 @@ header nav ul li a.nav-active {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     header nav .logo-kasa img {
         width: 85%;
     }
@@ -49,11 +54,14 @@ header nav ul li a.nav-active {
     header nav ul li a {
         font-size: 20px;
     }
+
+    header nav {
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 740px) {
     header {
-        height: 100px;
         padding-left: 20px;
         padding-right: 20px;
     }

@@ -14,4 +14,8 @@
     .about-collapse {
         margin-inline: 0;
     }
+
+    .about-banner .banner {
+        height: 223px;
+    }
 }

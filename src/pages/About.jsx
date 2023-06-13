@@ -11,7 +11,9 @@ function About() {
         <>
             <Header />
             <main>
+                <div className="about-banner">
                 <Banner src={bannerAbout} alt="Bannière à propos" />
+                </div>
                 <div className="about-collapse">
                     <Collapse title="Fiabilité"
                         text="Les annonces postées sur Kasa garantissent une fiabilité totale. 
